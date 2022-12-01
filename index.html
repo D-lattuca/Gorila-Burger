@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Catalogo Gorila Burger</title>
+</head>
+<body class="fondo">
+    <header>
+        <a href="../index.html"><h1 class="titulos">Gorila Burger</h1></a>
+        <img class="imagenmono" src="./Images/logo2.png" alt="">
+        <nav>
+            <ul class="navbar">
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <ul className="navbar-nav me-auto">  
+      <li className="nav-item " >
+          <a id="botonCarrito" data-bs-toggle="modal" data-bs-target="#idModal" class="btn btn-secondary"><i class="fas fa-shopping-cart fa-1x"></i></a>
+      </li>
+  </ul>
+      <!--Modal Carrito-->
+    <div class="modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="modal-body">
+            
+          </div>
+          <div class="row ml-ato">
+            <p id="precioTotal"></p>
+          </div>
+          <div class="modal-footer">
+            
+            
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" data-bs-dismiss="modal" class="btn btn-success" id="botonFinalizarCompra">Finalizar Compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+      <div class="divflex estilosProductos" id="productos"></div>
+    </section>
+    <footer>
+      <div class="copyright">
+          <p>
+            <small>Copyright 2022 &#169; Hecho con amor Por Dante Lattuca Team</small>
+          </p>
+          <p>
+            <small>Permissions and Copyright &#8226; Contactanos
+              <a href="https://www.instagram.com/dante_lattuca/">Instragram</a>
+              <a href="https://www.instagram.com/dante_lattuca/">facebook</a>
+              <a href="https://www.instagram.com/dante_lattuca/">Whatsapp</a>
+            </small>
+          </p>
+        </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+</script>
+<!--sweet alert-->
+<script src="./node_modules/sweetalert2/dist/sweetalert2.all.js"></script>
+<!--Nuestro js-->
+<script src="E-comerce.js"></script>  
+</body>
+</html>

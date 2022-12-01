@@ -1,0 +1,163 @@
+.fondo {
+    background-image: url(https://media.istockphoto.com/id/1135575969/photo/background.jpg?s=612x612&w=0&k=20&c=LXfzVnRCNsIF1mvWgxQbUFNiEflNnnTpV6GPY8lQRVo=);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  .divflex {
+    top: 2;
+    flex: 1;
+    padding: 40px;
+    background-image:url(https://media.istockphoto.com/id/1135575969/photo/background.jpg?s=612x612&w=0&k=20&c=LXfzVnRCNsIF1mvWgxQbUFNiEflNnnTpV6GPY8lQRVo=) ;
+    margin: 20px;
+    margin-bottom: 0px;
+  }
+  .divLogo{
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    align-items: stretch;
+  }
+  .imagenmono{
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+  }
+  .ImagenPrincipal{
+    width: 20rem;
+  }
+  footer {
+      margin: 0;
+      position: relative;
+      background: rgb(20, 20, 20);
+      color: rgb(232, 224, 228);
+    }
+    footer h4 {
+      margin-bottom: 0;
+    }
+    footer h5 {
+      line-height: 1.5;
+    }
+    footer .copyright {
+      background: rgb(45, 45, 45);
+      color: rgb(150, 150, 150);
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 10px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    footer .copyright a{
+      color:white;
+    }
+    footer .copyright span {
+      border-bottom: solid 1px;
+    }
+  
+  
+  .titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+  .navbar{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOhMlSRIMaBvTMffOc2c7wM18_iNthNqI1HA&usqp=CAU);
+    opacity: 0,5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-family:'Fuzzy Bubbles', cursive;
+    
+  }
+  .conteiner{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .estilosProductos{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /*Card*/
+  .card{
+    width: 90%;
+    max-width: 350px;
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    background-color: white;
+    max-height: 700px;
+  }
+  .card h3{
+    color: black;
+    margin: 0.5rem 0rem;
+    padding: 0.25rem;
+    padding-top: 1rem;
+    font-size: 2.25rem;
+    height: 120px;
+  
+  }
+  .card img{
+    border: 1px solid black;
+    border-radius: 2%;
+    min-width: 250px;
+    width: 100%;
+    height: 300px;
+  }
+  .content{
+    padding: 1rem;
+    font-size: 1rem;
+  
+  }
+  .content a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: gray;
+    border: 1px black solid;
+    border-radius: 20%;
+    color: white;
+    background-color: black;
+  
+    font-size: 1.25rem;
+  
+  }
+  .content p{
+    padding: 0.25rem;
+  }
+  .content a:hover{
+    color:red;
+    height: 200%;
+    
+  }
+  .autorCard{
+    font-size: 2rem;
+    height: 80px;
+  }
+  .precioCard{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+  
+  
+  .tituloCard{
+    color: red;
+  }
